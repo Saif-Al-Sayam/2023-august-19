@@ -1,0 +1,130 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+/*header start*/
+	header {
+		padding: 0px;
+	}
+	.logo{
+		width: 180px;
+	}
+	.menu ul li a {
+		margin-bottom: 10px;
+		padding: 0 10px !important;	
+	}
+/*banner start*/
+	.banner{
+		padding-bottom: 40px;
+	}
+	.b-text{
+		text-align: center;
+	}
+	.b-h1{
+		padding: 0;
+		font-size: 30px;
+		line-height: 40px;
+	}
+	.b-p2{
+		padding: 0 ;
+		line-height: 30px;
+	}
+	.btn-link{
+		margin: 15px auto 0;
+	}
+	.b-img{
+		margin-bottom: 20px;
+		padding: 0;
+	}
+	.b-img img{
+		width: 100%;
+	}
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+/*header start*/
+	header {
+	padding: 5px;
+	}
+	.menu ul li a {
+	margin-bottom: 15px;
+	padding: 0 10px !important;
+	}
+/*banner start*/
+	.b-text{
+		text-align: center;
+	}
+	.b-h1{
+		padding: 0 40px 0;
+		font-size: 35px;
+		line-height: 50px;
+	}
+	.b-p2{
+		padding: 0 30px;
+		line-height: 30px;
+	}
+	.btn-link{
+		margin: 15px auto 0;
+	}
+	.b-img{
+		margin-bottom: 30px;
+		padding: 0 50px;
+	}
+	.b-img img{
+		width: 100%;
+	}
+
+
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*header srart*/
+	.menu ul li a {
+	margin-bottom: 15px;
+	padding: 0 10px !important;
+	}
+/*banner start*/
+	.b-text{
+		text-align: center;
+	}
+	.b-h1{
+		padding: 0 90px;
+	}
+	.b-p2{
+		padding: 0 70px;
+	}
+	.btn-link{
+		margin: 15px auto 0;
+	}
+	.b-img{
+		margin-bottom: 30px;
+		padding: 0 100px;
+	}
+	.b-img img{
+		width: 100%;
+	}
+
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/*banner start*/
+	.b-p2{
+  		padding-right: 50px;
+  	}
+
+}
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+
+}
+/*Extra Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1400px) {
+/*banner start*/
+	.b-h1 {
+    padding-right: 100px;
+  	}
+  	.b-p2{
+  		padding-right: 90px;
+  	}
+
+}

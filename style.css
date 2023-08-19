@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto&display=swap');
+
+/*common start*/
+body{
+	font-family: 'poppins', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #000000;
+}
+/*common end*/
+/*header start*/
+header{
+	padding: 15px;
+	background-color: #f0fff0;
+}
+.c_nav{}
+.logo{}
+.menu{}
+.menu ul li a{
+	padding: 0 25px !important;
+	color: #000000 !important;
+}
+.menu ul li a:hover{
+	color: #fd511a !important;
+}
+.btn_c{
+	font-family: 'roboto', sans-serif;
+	color: white !important;
+	border-radius: 33px;
+	background: #21B573;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.btn_sign{
+/*	padding: 12px 28px;*/
+	margin-left: 15px;
+	width: 105px;
+	height: 45px;
+}
+.btn_c:hover{
+	background-color: #fd511a;
+}
+.btn_c:active{
+	background-color: #fd511a !important;
+}
+/*header end*/
+/*banner start*/
+.banner{
+	background-color: #F0FFF0;
+	padding: 0 0 65px 0;
+}
+.b-text{
+
+}
+.b-p1{
+	color: #fd511a;
+}
+.b-h1{
+	margin: 10px 0 20px;
+	padding: 0 35px 0 0;
+	font-size: 48px;
+	font-weight: 700;
+	color: #000000;
+	line-height: 70px;
+}
+.b-h1 span{
+	color: #21B573;
+}
+.b-p2{
+	padding: 0 50px 0 0;
+	line-height: 36px;
+}
+.btn-link{
+	margin-top: 15px;
+	width: 155px;
+	height: 45px;
+}
+.b-img{
+
+}
+.b-img img{
+
+}
+
+/*banner end*/
+
+
